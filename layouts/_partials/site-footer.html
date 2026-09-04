@@ -1,13 +1,15 @@
 <footer class="{{ .Site.Params.background_color_class | compare.Default "bg-black" }} bottom-0 w-100 pa3" role="contentinfo">
-  <div class="flex justify-between">
-    <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="{{ .Site.Home.Permalink }}">
-      &copy; {{ now.Format "2006" }} {{ with .Site.Copyright | compare.Default .Site.Title }}{{ . | safe.HTML }}{{ end }}
-    </a>
-    <div>{{ partials.IncludeCached "social/follow.html" . }}</div>
-  </div>
   <div class="tc w-100 pv2 avenir">
-    <span>由 <a class="white-70" href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> 强力驱动</span>
-    <span class="mh2">|</span>
-    <span>主题 - <a class="white-70" href="https://github.com/theNewDynamic/gohugo-theme-ananke" target="_blank" rel="noopener">Ananke</a></span>
+    <div class="mb2">{{ partials.IncludeCached "social/follow.html" . }}</div>
+    <div>
+      <span>由 <a class="white-70" href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> 强力驱动</span>
+      <span class="mh2">|</span>
+      <span>主题 - <a class="white-70" href="https://github.com/theNewDynamic/gohugo-theme-ananke" target="_blank" rel="noopener">Ananke</a></span>
+    </div>
+    <div class="mt1">
+      <a class="white-70 hover-white no-underline" href="{{ .Site.Home.Permalink }}">
+        &copy; {{ now.Format "2006" }} {{ with .Site.Copyright | compare.Default .Site.Title }}{{ . | safe.HTML }}{{ end }}
+      </a>
+    </div>
   </div>
 </footer>

@@ -37,8 +37,14 @@ footer a.white-70 {
     color: #7cc4ff;
   }
 
-  /* 正文内容：覆盖主题默认的 mid-gray（深灰），改用亮灰提升可读性 */
+  /* 正文内容：覆盖主题默认的中性深色文案类，统一改用亮灰提升可读性 */
+  .dark-gray,
   .mid-gray,
+  .near-black,
+  .black,
+  .black-80,
+  .black-70,
+  .black-60,
   main p,
   main li,
   main h1,
@@ -48,6 +54,16 @@ footer a.white-70 {
   main h5,
   main h6 {
     color: #c9c9c9;
+  }
+
+  /* 浅色背景的按钮/标签/内容区，在深色下改为深色表面 */
+  .bg-light-gray,
+  .bg-near-white,
+  .bg-washed-blue,
+  .bg-washed-green,
+  .bg-washed-yellow,
+  .bg-washed-red {
+    background-color: #2a2a2a;
   }
 
   /* 加粗与标题稍亮一些，突出层次 */
