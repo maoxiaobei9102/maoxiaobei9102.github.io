@@ -1,5 +1,5 @@
 # Hugo 站点配置
-baseURL = '/'
+baseURL = 'https://maoxiaobei9102.github.io/myBlog/'
 locale = 'zh-cn'
 title = '小北的部落格'
 theme = 'ananke'
@@ -10,9 +10,21 @@ defaultContentLanguage = 'zh'
 paginate = 10
 
 [params]
-  # 站点描述（可后续修改）
-  description = '小北的部落格'
+  # 站点描述（用于搜索引擎 meta 等）
+  description = '这个人很懒，什么都没有留下'
   # 作者昵称
   author = '小北'
-  # GitHub 或其他社交链接（可后续修改）
-  # github = '你的GitHub账号'
+  # 背景配色：默认浅色；系统深色模式由自定义 CSS 跟随切换
+  background_color_class = 'bg-white'
+
+  # Ananke 主题配置
+  [params.ananke]
+    # 自定义样式文件（追加在主题样式之后）
+    custom_css = ["custom.css"]
+
+    # 社交媒体「关注」链接
+    [params.ananke.social.follow]
+      networks = ["github"]
+
+    [params.ananke.social.github]
+      username = "maoxiaobei9102"
