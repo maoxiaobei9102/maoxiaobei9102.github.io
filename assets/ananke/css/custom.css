@@ -16,7 +16,7 @@ footer a.white-70 {
   /* 整站深色背景与正文文字 */
   body {
     background-color: #0d0d0d !important;
-    color: #d6d6d6 !important;
+    color: #d0d0d0 !important;
   }
 
   /* 白色背景的内容区/头部/底部/卡片统一转为深色 */
@@ -35,5 +35,25 @@ footer a.white-70 {
   /* 链接颜色适配深色 */
   body a {
     color: #7cc4ff;
+  }
+
+  /* 正文内容：覆盖主题默认的 mid-gray（深灰），改用亮灰提升可读性 */
+  .mid-gray,
+  main p,
+  main li,
+  main h1,
+  main h2,
+  main h3,
+  main h4,
+  main h5,
+  main h6 {
+    color: #c9c9c9;
+  }
+
+  /* 加粗与标题稍亮一些，突出层次 */
+  main strong,
+  main h1,
+  main h2 {
+    color: #e6e6e6;
   }
 }
