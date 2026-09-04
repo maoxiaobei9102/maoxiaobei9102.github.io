@@ -13,7 +13,7 @@ paginate = 10
   # 站点描述（用于搜索引擎 meta 等）
   description = '这个人很懒，什么都没有留下'
   # 作者昵称
-  author = '小北'
+  author = 'Lin'
   # 背景配色：默认浅色；系统深色模式由自定义 CSS 跟随切换
   background_color_class = 'bg-white'
 
