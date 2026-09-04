@@ -1,5 +1,5 @@
 # Hugo 站点配置
-baseURL = 'https://maoxiaobei9102.github.io/myBlog/'
+baseURL = 'https://maoxiaobei9102.github.io/'
 locale = 'zh-cn'
 title = '小北的部落格'
 theme = 'ananke'
