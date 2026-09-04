@@ -1,0 +1,18 @@
+# Hugo 站点配置
+baseURL = '/'
+locale = 'zh-cn'
+title = '小北的部落格'
+theme = 'ananke'
+
+# 默认内容语言
+defaultContentLanguage = 'zh'
+# 分页大小
+paginate = 10
+
+[params]
+  # 站点描述（可后续修改）
+  description = '小北的部落格'
+  # 作者昵称
+  author = '小北'
+  # GitHub 或其他社交链接（可后续修改）
+  # github = '你的GitHub账号'
