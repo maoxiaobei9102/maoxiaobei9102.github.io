@@ -28,3 +28,19 @@ paginate = 10
 
     [params.ananke.social.github]
       username = "maoxiaobei9102"
+
+# 导航菜单
+[[menus.main]]
+  name = '主页'
+  url = '/'
+  weight = 1
+
+[[menus.main]]
+  name = '分类'
+  url = '/categories/'
+  weight = 2
+
+[[menus.main]]
+  name = '标签'
+  url = '/tags/'
+  weight = 3
