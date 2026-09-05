@@ -22,6 +22,10 @@ paginate = 10
     # 自定义样式文件（追加在主题样式之后）
     custom_css = ["custom.css"]
 
+    # 首页显示最近文章数
+    show_recent_posts = true
+    recent_posts_number = 3
+
     # 社交媒体「关注」链接
     [params.ananke.social.follow]
       networks = ["github"]

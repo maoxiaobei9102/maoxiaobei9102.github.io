@@ -6,6 +6,8 @@ title = 'Hugo+Github.io搭建博客'
 
 今天简单介绍一下本站的技术架构与主题。
 
+<!--more-->
+
 ## 技术架构
 
 本博客采用 **Hugo** 作为静态站点生成器，结合 **GitHub Pages** 托管，并通过 **GitHub Actions** 实现自动化构建与部署。
